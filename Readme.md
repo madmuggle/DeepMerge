@@ -1,7 +1,7 @@
 This is just like the `merge` function in lodash, but will treat array in a different way.
 
 If you use lodash's `merge` function to merge the following 2 object:
-```json
+```js
 {
 	a: {
 		b: [ 1, 2, 3 ],
@@ -10,7 +10,7 @@ If you use lodash's `merge` function to merge the following 2 object:
 }
 ```
 
-```json
+```js
 {
 	a: {
 		b: { x: 1 },
@@ -20,7 +20,7 @@ If you use lodash's `merge` function to merge the following 2 object:
 ```
 
 You will get this result:
-```json
+```js
 {
 	a: {
 		b: [ 1, 2, 3, x: 1 ],
@@ -30,7 +30,7 @@ You will get this result:
 ```
 
 But my `merge` function will get this result:
-```json
+```js
 {
 	a: {
 		b: { x: 1 },
