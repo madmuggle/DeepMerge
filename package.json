@@ -1,4 +1,7 @@
 {
 	"name": "deepmerge",
-	"version": "0.0.1"
+	"version": "0.0.1",
+	"scripts": {
+		"test": "node test/a.js"
+	}
 }
